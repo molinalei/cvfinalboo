@@ -1,0 +1,281 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Titillium+Web:wght@200;300;400;600&family=Yellowtail&display=swap');
+*{
+    font-family: "titillium web ";
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior:smooth;
+}
+/*barra de navegacion*/
+
+
+
+/*seccion inicio*/
+.inicio{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),
+    url("imagenes/inferior2.jpeg");
+    background-size:cover;
+    background-position: center center;
+    color:#fff;
+}
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin:auto;
+    text-align:center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding:30px;
+}
+/*menu lateral*/
+.inicio .contenido-seccion header nav{
+    position:fixed;
+    margin-left: 60px;
+    background-color: blueviolet;
+    padding:15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index:99;
+    display:none;
+}
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color:#fff;
+    text-decoration:none;
+    margin-bottom:10px;
+    font-weight: bold;
+}
+
+.inicio .contenido-seccion header .logo{
+    font-weight: bold;
+    font-size:2.5rem;
+    font-family: "yellowtail";
+    text-shadow: 0 0 35px #fff;
+}
+.inicio .contenido-seccion .color {
+    color:rgb(167, 85, 167);
+    font-family:"yellowtail";
+}
+.inicio .contenido-seccion header .nav-bar{
+    position:fixed;
+    background-color: blueviolet;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius:50px;
+    line-height: 50px;
+    cursor:pointer;
+    transition: .3s;
+
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px #fff;
+}
+.inicio .contenido-secccion .info{
+    padding-bottom:130px;
+}
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+
+}
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+
+}
+.inicio .contenido-seccion .info .redes{
+    margin:20px 0;
+}
+.inicio .contenido-seccion .info .redes a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color:blueviolet;
+    border:1px solid blueviolet;
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    margin:0 5px;
+    transition: .3s;
+}
+.inicio .contenido-seccion .info .redes a:hover{
+    color:#fff;
+    background-color: blueviolet;
+    box-shadow:0 0 20px #fff;
+
+}
+ @media screen and (min-width:700px){
+    .hero-inferior-imagen{
+        max-width:600px;
+        justify-content:center;
+        height: 120px;
+        width: 120px;
+    }
+}
+.hero-imagen-principal{
+    width:25vw;
+    height: 200px;
+    margin:auto;
+    border:3px solid #a556af;
+    position: absolute;
+    align-content: center;
+ }
+ .hero-principal{
+    padding:3rem;
+}
+ .hero-imagen-principal{
+    position: relative;
+ }
+ 
+.sobre-mi .contenedor {
+    max-width:600px;
+    text-align: center;
+}
+/*estilos generales*/
+.titulo-seccion{
+    font-family: "yellowtail";
+    font-size: 1.5rem;
+
+}
+/*seccion sobre mi */
+.sobremi{
+    padding:140px 0 100px;
+    text-align: center;
+}
+.sobremi .contenido-seccion{
+    max-width: 1000px;
+    margin:auto;
+    padding: 0 10px;
+}
+.sobremi .container{
+    text-transform:uppercase;
+    font-size: 30px;
+}
+.sobremi .container .especial{
+    color:blueviolet;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sobremi .container p{
+    max-width: 700px;
+    margin:auto;
+    color:black;
+
+}
+.sobremi .container .row{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.row .columna{
+    padding:20px;
+    border:2px solid #8080804d;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:space-evenly;
+    transition: all.0.2s ease-in;
+}
+.row .columna:hover{
+    color:blueviolet;
+    background-color: #1b1b32;
+
+}
+
+.row i {
+    font-size: 2.5rem;
+    color:blueviolet;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+    text-align: center;
+}
+.sobremi .contenido-seccion .row .columna span{
+  display: block;
+  font-weight: bold;
+  margin:8px 0;
+}
+.sobremi .seccion-clara{
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family:"Titillium Web" ; 
+
+}
+.testimonio-texto{
+    font-size: 20px;
+    text-align: center;
+    font-family:"Titillium Web" ;   
+}
+.sobremi .texto-especial{
+    text-decoration: white;
+    font-size: 20px;
+    text-align: center;
+    font-family:"Titillium Web" ;
+}
+/*contacto*/
+.contacto .container {
+    max-width:1100px;
+    min-height: 200px;
+    padding:20px;
+}
+.contacto .rectangulo {
+    margin-top:-5rem;
+    background-color: blueviolet ;
+    border-radius: 10px;
+    box-sizing: 0px 1px 4px 1px white;
+}
+.contacto.row {
+    width:100%;
+    display:flex;
+    align-items:center;
+}
+.contacto.descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+.contacto button{
+    color:white;
+    font-weight: bold;
+    background: transparent;
+    border:2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+.contacto button :hover {
+    background-color: white;
+    color:black;
+}
+.contacto button :hover{
+    color:black;
+}
+.contacto button i {
+    color:blueviolet;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+.contacto .texto-contacto{
+    font-size: 20px;
+    text-align: center;
+    font-family:"Titillium Web" ;   
+} 
+.contacto .texto-contacto2{
+    text-align: center;
+    font-family: "yellowtail";
+    font-size: rem; ;  
+}
+.derechos-de-autor {
+    font-size: 15px;
+    color:#aeaeae;
+    padding:20px;
+
+}
+
